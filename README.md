@@ -29,7 +29,7 @@ The Home Rental Offer Web Application is a useful tool for anyone looking to cre
   </ol>
   
 ```
-git clone https://github.com/VitaliyMinaev/PropertySearch.git
+git clone https://github.com/AlexKutny/IPZ.git
 ```
 
 <ol start="3">
