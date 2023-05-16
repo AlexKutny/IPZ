@@ -1,0 +1,329 @@
+html {
+  font-size: 14px;
+}
+
+body {
+    background-image: url('../images/background.jpg');
+}
+
+a span.text {
+    position: relative;
+    top: 1px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  height: 100%;
+}
+
+body {
+    height: 100%;
+    margin-bottom: 60px;
+    font-family: Roboto, sans-serif;
+}
+
+/* header nav */
+header nav {
+    padding-left: 60px; 
+    padding-right: 25px;
+}
+@media (max-width: 796px) {
+    header nav {
+        padding-left: 40px;
+        padding-right: 15px;
+    }
+}
+header nav .nav-item i {
+    position: relative;
+    top: 3px;
+}
+
+.navbar-brand i {
+    color: dodgerblue;
+    position: relative;
+    top: 4px;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1 1 auto;
+}
+
+/* Forms styles */
+form *{
+    padding-top: 2px;
+}
+
+a.go-back {
+    margin-right: 5px;
+}
+form button, form a.go-back {
+    margin-top: 5px;
+    min-width: 120px;
+}
+
+i {
+    font-size: 24px;
+}
+.d-flex i {
+    font-size: 28px;
+    position: relative;
+    top: 2px;
+
+    margin-right: 3px;
+}
+
+/* Fot tab control */
+div.login-logout-tab div.card-header {
+    padding: 0px 0px 12px 0px;
+}
+
+div.login-logout-tab ul.nav-tabs {
+    margin: 0px 0px -12px 0px;
+}
+
+div.login-logout-tab li.nav-item {
+    width: 50%;
+}
+
+ul.card-header-tabs a.nav-link {
+    font-size: 22px;
+    color: #495057;
+    text-align: center;
+}
+
+div.card-content {
+    padding: 10px 20px;
+}
+
+/* login form */
+div.login-form-icon {
+    text-align: center;
+}
+
+.asp-errors *{
+    padding-left: 0px;
+    list-style: none;
+}
+
+ul li.logout form button {
+    border: none;
+    background-color: transparent;
+    padding: 0px;
+    margin: 3px;
+    font-size: var(--bs-body-font-size);
+}
+
+ul li p.username {
+    padding: 0px;
+    margin: 3px;
+    font-size: var(--bs-body-font-size);
+}
+
+ul.nav li.d-flex i {
+    position: relative;
+    top: 1px;
+
+    margin-right: 0px;
+}
+
+body .wrapper footer {
+    position: relative !important;
+    top: 60px;
+}
+
+/* Image wrapper */
+.image-wrapper {
+    border: 4px solid dodgerblue;
+    border-radius: 15px;
+    padding: 0px;
+}
+.image-wrapper img {
+    width: 100%;
+    border-radius: 10px;
+}
+.image-wrapper img:hover {
+    transform: scale(1.2);
+    transition-duration: 500ms;
+}
+
+/* Text styles */
+.text-gray {
+    color: gray;
+}
+
+.card-header-text {
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+/* prev-next-menu */
+.prev-next-menu {
+}
+.prev-next-menu a {
+    min-width: 100px;
+}
+.prev-next-menu a i {
+    position: relative;
+    top: 2px;
+}
+.prev-next-menu a span {
+    position: relative;
+    bottom: 2px;
+}
+
+/* cards-container */
+.cards-container {
+    border: 1px solid rgba(0,0,0,.125);
+    border-top: none;
+    border-radius: 1px;
+}
+.card-header {
+    border-radius: 1px;
+}
+
+/* i html tag */
+a i {
+    position: relative;
+    top: 2px;
+}
+a span {
+    position: relative;
+    bottom: 2px;
+}
+
+/* Team Page */
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+.social-link:hover, .social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+}
+
+.strike {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.strike > span {
+    position: relative;
+    display: inline-block;
+}
+
+.strike > span:before,
+.strike > span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 9999px;
+    height: 4px;
+    background: black;
+}
+
+.strike > span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.strike > span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+
+/* dropdown-menu */
+.dropdown-menu form.dropdown-item {
+    margin-bottom: 5px;
+    padding: 0.25rem 1rem;
+}
+.dropdown-menu form.dropdown-item button {
+    text-align: left;
+}
+
+/* footer */
+footer ul.menu li a {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+    font-weight: 300;
+}
+footer ul.menu li a:hover {
+    color: azure !important;
+    opacity: 1;
+}
+
+/* custom button */
+.custom-btn button {
+    border-radius: 20px;
+    background: rgb(121, 113, 234);
+    padding: 4px;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    min-width: 160px;
+    min-height: 48px;
+}
+
+.custom-btn button:hover {
+    background: rgb(57, 48, 175);
+}
+
+.custom-btn button:active {
+    background: rgb(105, 95, 255);
+}
+
+/* privacy */
+.center {
+    justify-content:center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+/* home */
+div.container.home {
+    font-family: Sen, Roboto, sans-serif;
+}
+i.geo {
+    color: dodgerblue;
+}
+
+.card .card-header.location {
+    margin-left: 5px;
+    margin-top: 7px;
+
+    background-color: transparent;
+}
+i.bx-map {
+    position: relative;
+    top: 3px;
+}
